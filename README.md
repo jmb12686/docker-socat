@@ -1,4 +1,11 @@
 # docker-socat (multi-architecture socat Docker image)
+<p align="center">
+  <a href="https://hub.docker.com/r/jmb12686/socat/tags?page=1&ordering=last_updated"><img src="https://img.shields.io/github/v/tag/jmb12686/docker-socat?label=version&style=flat-square" alt="Latest Version"></a>
+  <a href="https://github.com/jmb12686/docker-socat/actions"><img src="https://github.com/jmb12686/docker-socat/workflows/build/badge.svg" alt="Build Status"></a>
+  <a href="https://hub.docker.com/r/jmb12686/socat/"><img src="https://img.shields.io/docker/stars/jmb12686/socat.svg?style=flat-square" alt="Docker Stars"></a>
+  <a href="https://hub.docker.com/r/jmb12686/socat/"><img src="https://img.shields.io/docker/pulls/jmb12686/socat.svg?style=flat-square" alt="Docker Pulls"></a>
+</p>
+
 Inspired by [stefanprodan/dockerd-exporter](https://github.com/stefanprodan/dockerd-exporte) with added support for ARM / ARM64 multiarchitecture images.  Runs the `socat` program in a base alpine image.  Can be used to relay arbitrary socket data or specifically export experimental Docker daemon metrics to Prometheus.
 
 ## Install and Usage
